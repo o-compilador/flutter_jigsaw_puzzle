@@ -1,7 +1,7 @@
 name: flutter_jigsaw_puzzle
 description: A simple Jigsaw Puzzle lib built with Flutter.
 version: 0.1.0
-homepage: https://github.com/edunuzzi/flutter_jigsaw_puzzle
+homepage: https://github.com/o-compilador/flutter_jigsaw_puzzle
 
 environment:
   sdk: ">=2.12.0 <3.0.0"

@@ -69,18 +69,18 @@ Column(
 ),
 ```
 
-You can find a working example in the [Example](https://github.com/edunuzzi/flutter_jigsaw_puzzle/tree/master/example) project.
+You can find a working example in the [Example](https://github.com/o-compilador/flutter_jigsaw_puzzle/tree/master/example) project.
 
 ## Changelog
 
-Please see the [Changelog](https://github.com/edunuzzi/flutter_jigsaw_puzzle/blob/master/CHANGELOG.md) page to know what's recently changed.
+Please see the [Changelog](https://github.com/o-compilador/flutter_jigsaw_puzzle/blob/master/CHANGELOG.md) page to know what's recently changed.
 
 ## Contributions
 
 Feel free to contribute to this project.
 
-If you find a bug or want a feature, but don't know how to fix/implement it, please fill an [issue](https://github.com/edunuzzi/flutter_jigsaw_puzzle/issues).  
-If you fixed a bug or implemented a new feature, please send a [pull request](https://github.com/edunuzzi/flutter_jigsaw_puzzle/pulls).
+If you find a bug or want a feature, but don't know how to fix/implement it, please fill an [issue](https://github.com/o-compilador/flutter_jigsaw_puzzle/issues).  
+If you fixed a bug or implemented a new feature, please send a [pull request](https://github.com/o-compilador/flutter_jigsaw_puzzle/pulls).
 
 ## TODO
 * Tests
