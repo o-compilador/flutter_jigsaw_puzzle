@@ -1,5 +1,5 @@
 name: flutter_jigsaw_puzzle
-description: A simple Jigsaw Puzzle lib built with Flutter.
+description: A simple Jigsaw Puzzle lib built with Flutter that supports custom grids of varying sizes.
 version: 0.1.0
 homepage: https://github.com/o-compilador/flutter_jigsaw_puzzle
 
@@ -12,4 +12,3 @@ dependencies:
 
   image: ^3.0.5
   carousel_slider: ^4.0.0
-  clip_shadow: ^0.2.1
