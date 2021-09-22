@@ -21,7 +21,7 @@ class JigsawPuzzle extends StatefulWidget {
     this.onBlockSuccess,
     this.outlineCanvas = true,
     this.autoStart = false,
-    this.sensitivity = .5,
+    this.snapSensitivity = .5,
   }) : super(key: key);
 
   final int gridSize;
@@ -30,7 +30,7 @@ class JigsawPuzzle extends StatefulWidget {
   final AssetImage image;
   final bool autoStart;
   final bool outlineCanvas;
-  final double sensitivity;
+  final double snapSensitivity;
   final GlobalKey<JigsawWidgetState> puzzleKey;
 
   @override
@@ -57,7 +57,7 @@ class _JigsawPuzzleState extends State<JigsawPuzzle> {
           },
           key: widget.puzzleKey,
           gridSize: widget.gridSize,
-          sensitivity: widget.sensitivity,
+          snapSensitivity: widget.snapSensitivity,
           outlineCanvas: widget.outlineCanvas,
           child: Image(
             fit: BoxFit.contain,
@@ -73,7 +73,7 @@ class JigsawWidget extends StatefulWidget {
   const JigsawWidget({
     Key? key,
     required this.gridSize,
-    required this.sensitivity,
+    required this.snapSensitivity,
     required this.child,
     this.callbackFinish,
     this.callbackSuccess,
@@ -85,7 +85,7 @@ class JigsawWidget extends StatefulWidget {
   final Function()? callbackFinish;
   final int gridSize;
   final bool outlineCanvas;
-  final double sensitivity;
+  final double snapSensitivity;
 
   @override
   JigsawWidgetState createState() => JigsawWidgetState();
@@ -275,7 +275,7 @@ class JigsawWidgetState extends State<JigsawWidget> {
                       const maxDistanceThreshold = 20;
                       const minDistanceThreshold = 1;
 
-                      final sensitivity = widget.sensitivity;
+                      final sensitivity = widget.snapSensitivity;
                       final distanceThreshold = sensitivity *
                               (maxSensitivity - minSensitivity) *
                               (maxDistanceThreshold - minDistanceThreshold) +

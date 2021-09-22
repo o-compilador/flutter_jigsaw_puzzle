@@ -52,12 +52,14 @@ class MyApp extends StatelessWidget {
                   ],
                 ),
                 JigsawPuzzle(
-                  gridSize: 10,
+                  gridSize: 5,
                   image: const AssetImage('assets/Jigsaw.jpg'),
                   onFinished: () {
                     // ignore: avoid_print
                     print('finished!');
                   },
+                  // ignore: avoid_redundant_argument_values
+                  snapSensitivity: .5, // Between 0 and 1
                   puzzleKey: puzzleKey,
                   onBlockSuccess: () {
                     // ignore: avoid_print
