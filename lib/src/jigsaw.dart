@@ -9,7 +9,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:image/image.dart' as ui;
 
-import 'package:jigsaw_puzzle/src/error.dart';
+import 'package:flutter_jigsaw_puzzle/src/error.dart';
 
 class JigsawPuzzle extends StatefulWidget {
   const JigsawPuzzle({

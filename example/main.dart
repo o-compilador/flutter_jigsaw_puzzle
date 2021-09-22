@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:jigsaw_puzzle/jigsaw_puzzle.dart';
+import 'package:flutter_jigsaw_puzzle/flutter_jigsaw_puzzle.dart';
 
 void main() {
   runApp(const MyApp());
@@ -52,7 +52,7 @@ class MyApp extends StatelessWidget {
                   ],
                 ),
                 JigsawPuzzle(
-                  gridSize: 5,
+                  gridSize: 10,
                   image: const AssetImage('assets/Jigsaw.jpg'),
                   onFinished: () {
                     // ignore: avoid_print

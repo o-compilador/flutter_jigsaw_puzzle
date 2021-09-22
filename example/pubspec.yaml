@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  jigsaw_puzzle:
+  flutter_jigsaw_puzzle:
     path: ../
     
 flutter:
