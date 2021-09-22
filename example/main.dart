@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'jigsaw_puzzle.dart';
+import '../lib/jigsaw_puzzle.dart';
 
 void main() {
   runApp(MyApp());
