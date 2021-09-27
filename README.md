@@ -1,6 +1,6 @@
 # flutter_jigsaw_puzzle
 
-A Flutter jigsaw puzzle view that supports custom grids of varying sizes.
+Geneate a jigsaw puzzle of any size from a `ImageAsset`.
 
 <img src="https://user-images.githubusercontent.com/8173268/134375943-25c51a10-b4d1-4d00-af1d-d306ce0bf2e8.mp4" height="400"/>
 
