@@ -1,12 +1,12 @@
 # flutter_jigsaw_puzzle
 
-Geneate a jigsaw puzzle of any size from a `ImageAsset`.
+Geneate a jigsaw puzzle of any size from a `ImageProvider`.
 
 <img src="https://user-images.githubusercontent.com/8173268/134375943-25c51a10-b4d1-4d00-af1d-d306ce0bf2e8.mp4" height="400"/>
 
 ## Features
 
-* Create a jigsaw puzzle from any `AssetImage`
+* Create a jigsaw puzzle from any `ImageProvider`
 * Configurable grid size (2x2, 3x3, 4x4, 5x5, 6x6, ...)
 * Separate callbacks for when each block gets snapped and for when the puzzle is completed
 
