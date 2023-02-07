@@ -27,7 +27,7 @@ class JigsawPuzzle extends StatefulWidget {
   final int gridSize;
   final Function()? onFinished;
   final Function()? onBlockSuccess;
-  final AssetImage image;
+  final ImageProvider image;
   final bool autoStart;
   final bool outlineCanvas;
   final double snapSensitivity;
